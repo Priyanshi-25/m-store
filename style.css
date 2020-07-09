@@ -1,0 +1,56 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.jumbotron{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) , url('../image/4.jpg');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+	color: white;
+}
+.jumbotron .carousel .carousel-inner .carousel-item .main{
+	animation: colorchangeonlinecourse 1s infinite;
+}
+@keyframes  colorchangeonlinecourse {
+	0%{color: red;}
+	25%{color: #bf1160;}
+	50%{color: white;}
+	100%{color: #bf1160;}
+}
+.fa-star{
+	color: yellow;
+}
+.services .card-deck .card:hover{
+	box-shadow: 5px 10px green;
+}
+.modal .modal-dialog .modal-body{
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.fa-facebook{
+	color: blue;
+}
+.fa-google-plus{
+	color: red;
+}
+.modal .modal-dialog .modal-content .modal-body .login-icon{
+	font-size: 15px;
+}
+footer .fab:hover{
+      font-size: 40px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+	font-size: 21px;
+}
+.fed-icon:hover{
+	font-size: 18px;
+}
